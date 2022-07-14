@@ -133,17 +133,19 @@ public class Homework4 {
 		            	 System.out.printf(arr2[row][col] + " ");
 		            	 }
 		            	 System.out.printf("\n");
-		            	 System.out.printf("\n");
-}  
+		            
+}         System.out.println('\n');
 				  }
 			 
 			 public static void printElements3(Time[] x) {
 				 
 				 for (int row = 0; row < x.length; row++) {
-				
-					 System.out.println(x[row]);
+				  
+					 String s = x[row].toString();
+					 
+					 System.out.println(s);
 					 }
-				 
+				   
 				     }
                 
 			 
